@@ -1,0 +1,130 @@
+/* .panel1 {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    background: black;
+    right: 50%;
+}
+
+.resizer1 {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: #1DB954;
+    z-index: 2;
+}
+
+.resizer1.nw {
+    top: -1px;
+    left: -1px;
+    cursor: nw-resize;
+}
+
+.resizer1.ne {
+    top: -1px;
+    right: -1px;
+    cursor: ne-resize;
+}
+
+.resizer1.se {
+    bottom: -1px;
+    right: -1px;
+    cursor: se-resize;
+}
+
+.resizer1.sw {
+    bottom: -1px;
+    left: -1px;
+    cursor: sw-resize;
+} */
+
+
+
+
+
+
+
+
+/* .panel2 {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    background: black;
+}
+
+.resizer2 {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: #1DB954;
+    z-index: 2;
+}
+
+.resizer2.nw {
+    top: -1px;
+    left: -1px;
+    cursor: nw-resize;
+}
+
+.resizer2.ne {
+    top: -1px;
+    right: -1px;
+    cursor: ne-resize;
+}
+
+.resizer2.se {
+    bottom: -1px;
+    right: -1px;
+    cursor: se-resize;
+}
+
+.resizer2.sw {
+    bottom: -1px;
+    left: -1px;
+    cursor: sw-resize;
+}
+
+
+
+
+.panel3 {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    background: black;
+}
+
+.resizer3 {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: #1DB954;
+    z-index: 2;
+}
+
+.resizer3.nw {
+    top: -1px;
+    left: -1px;
+    cursor: nw-resize;
+}
+
+.resizer3.ne {
+    top: -1px;
+    right: -1px;
+    cursor: ne-resize;
+}
+
+.resizer3.se {
+    bottom: -1px;
+    right: -1px;
+    cursor: se-resize;
+}
+
+.resizer3.sw {
+    bottom: -1px;
+    left: -1px;
+    cursor: sw-resize;
+}  */

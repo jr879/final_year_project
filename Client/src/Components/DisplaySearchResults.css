@@ -1,0 +1,30 @@
+.result-container {
+    display: flex;
+    margin: 5px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.title-container {
+    margin-left: 5%;
+}
+
+.genre-container {
+    height: 20px;
+}
+
+.artist {
+    color: grey;
+}
+
+.search-result {
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+    background-color: black;
+}
+::-webkit-scrollbar-thumb {
+    background: #1ed760;
+    border-radius: 10px;
+  }

@@ -1,0 +1,243 @@
+.navbar{
+    background-color: black;
+    height: 80px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.menu-bars {
+    margin-left: 2rem;
+    font-size: 2rem;
+    background: none;
+}
+
+.horizontal-bar {
+    background-color: white;
+    height: 4px;
+    width: 25px;
+    position: absolute;
+    left: 21.5px;
+    top: 38.5px;
+}
+
+.vertical-bar {
+    background-color: white;
+    height: 25px;
+    width: 4px;
+    transition: transform 2s;
+}
+
+.vertical-bar:active {
+    background-color: white;
+    height: 25px;
+    width: 4px;
+    transform: rotate(90deg);
+}
+
+@keyframes rotate { 100% { -webkit-transform: rotate(90deg) } }
+
+.navbar-greeting {
+    margin-left: 80%
+}
+
+.nav-menu {
+    margin-top: 8vh;
+    background-color: black;
+    width: 440px;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    transition: 850ms;
+    z-index: 3;
+}
+
+.nav-menu.active {
+    left: 0;
+    transition: 350ms;
+}
+
+.create-panel-menu {
+    margin-top: 10vh;
+    background-color: black;
+    width: 440px;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    transition: 850ms;
+    z-index: 2;
+}
+
+.create-panel-menu.active {
+    left: 50%;
+    transition: 350ms;
+}
+
+.create-panel-menu-1 {
+    position: fixed;
+    top: 10%;
+    left: -100%;
+}
+
+.create-panel-menu-1.active {
+    left: 450px;
+    transition: 350ms;
+}
+
+.nav-section-text {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 8px 0px 8px 16px;
+    list-style: none;
+    height: 35px;
+    font-size: 312.5%;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.nav-section-subtext {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 8px 0px 8px 16px;
+    list-style: none;
+    height: 35px;
+    font-size: 200%;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.nav-text {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 8px 0px 8px 16px;
+    list-style: none;
+    height: 35px;
+    font-size: 218.75%;
+}
+
+.nav-text a {
+    text-decoration: none;
+    color: white;
+    font-size: 218.75%;
+    width: 95%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    border-radius: 4px;
+}
+
+.nav-text a:hover {
+    background-color: #1DB954;
+}
+
+.nav-menu-items {
+    width: 100%;
+}
+
+.navbar-toggle {
+    background-color: black;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.menu-back {
+    text-decoration: none;
+    color: white;
+    font-size: 218.75%;
+    width: 95%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.tabs {
+    width: 100%;
+    height: 100%;
+    background: black;
+    padding: 20px 30px;
+    overflow: hidden;
+    border-radius: 5px;
+    z-index: 10000;
+}
+
+.tabs .tab-header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.tabs .tab-header > div {
+    width: calc(100% / 4);
+    text-align: center;
+    color: #888;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 14px;
+    text-transform:uppercase;
+    outline: none;
+}
+
+.tabs .tab-header > div > i {
+    display: block;
+    margin-bottom :5px;
+}
+
+.tabs .tab-header > div.active {
+    color: #1ed760;
+}
+
+.tabs .tab-indicator {
+    position: relative;
+    width: calc(100% / 4);
+    height: 5px;
+    background: #1ed760;
+    border-radius: 5px;
+    transition: all 400ms ease-in-out;
+}
+
+.tabs .tab-body {
+    position: relative;
+    height: calc(100% - 60px);
+    padding: 10px 5px;
+}
+
+.tabs .tab-body > div {
+    position: absolute;
+    top: -200%;
+    opacity: 0;
+    margin-top: 5px;
+    transform: scale(0.9);
+    transition: opacity 150ms ease-in-out 0ms,
+    transform 150ms ease-in-out 0ms;
+}
+
+.tabs .tab-body > div.active {
+    top: 0px;
+    opacity: 1;
+    transform: scale(1);
+    margin-top: 0px;
+}
+
+.create-panel-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 0px 8px 16px;
+    list-style: none;
+    height: 35px;
+    font-size: 180%;
+}

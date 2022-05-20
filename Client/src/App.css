@@ -1,0 +1,104 @@
+.App {
+  text-align: left;
+}
+
+@font-face {
+  font-family: 'Aileron Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Aileron Regular'), url('Assets/Fonts/Aileron-Regular.otf') format('truetype');
+}
+
+* {
+  font-family: 'Aileron Regular', serif;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+     -moz-user-select: none; /* Old versions of Firefox */
+      -ms-user-select: none; /* Internet Explorer/Edge */
+          user-select: none; /* Non-prefixed version, currently
+                                supported by Chrome, Edge, Opera and Firefox */
+}
+
+body {
+  font-family: 'Aileron Regular', serif;
+  background-color: #000000;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  margin-left: 1vw;
+  overflow: hidden;
+}
+
+.column {
+  width: 50%;
+  height: 100vh;
+  float: left;
+}
+
+.appTitle {
+  font-size: calc(65px + 8vmin);
+  margin-top: 30%;
+}
+
+.appTitleSubtext {
+  margin-top: -6%;
+  font-size: calc(20px + 5vmin);
+  color: #1ed760;
+}
+
+/* ---------------------------------- Dashboard ---------------------------------- */
+
+.dashboardContainer {
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #191414;
+}
+
+.panel-container {
+  overflow-y: hidden;
+  overflow-x: hidden; 
+  height: 86%;
+  width: 100%;
+}
+
+.player-container {
+  height: 10%;
+  color:red;
+  background-color: red;
+}
+
+.create-panel-menu {
+  height: 85%;
+  width: 97.5%;
+  background-color: black;
+  position: fixed;
+  top: 12.5vh;
+  left: 1.3vw;
+}
+
+.create-panel-title {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 8px 0px 8px 16px;
+  list-style: none;
+  height: 35px;
+  font-size: 312.5%;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+
+.create-panel-menu-1 {
+  height: 70%;
+  width: 50%;
+  position: fixed;
+  top: 10%;
+  left: 25%;
+}
