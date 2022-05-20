@@ -13,6 +13,7 @@ class Panel extends Component {
         this.displayResizers = this.displayResizers.bind(this);
     }
     
+    // Toggle the resizers
     displayResizers(e) {
         this.setState({
             toggleResizers: true
@@ -66,7 +67,8 @@ class Panel extends Component {
             let panel = ".panel" + i;
             panelList.push(panel);
         }
-
+        
+        // Drag and drop functionality
         function mousedown(e) {
             if (!isPanelResizing) {
                 window.addEventListener('mousemove', mousemove);
